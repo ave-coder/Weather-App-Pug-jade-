@@ -1,0 +1,20 @@
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+		title Weather App
+		link(rel="stylesheet", href="/css/style.css", type="text/css")
+	body
+		.app 
+			#root 
+
+			#popup.popup
+				form#form.form(action='GET')
+					.form-group
+					input#text-input.form-input(type='text' value='' name='city' placeholder='London' required='')
+					input#submit-button.form-submit(type='submit' value='OK')
+				#close.popup-close
+					span
+
+		script(src='/js/main.js')
+			
